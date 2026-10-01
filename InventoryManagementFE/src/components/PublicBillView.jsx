@@ -117,20 +117,12 @@ const PublicBillView = () => {
       >
         {/* Header Section */}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', paddingBottom: '12px', marginBottom: '10px' }}>
-          {/* Left Side: Logo & Clinic Details */}
+          {/* Left Side: Clinic Details */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '3px', maxWidth: '360px' }}>
-            <div style={{ marginBottom: '4px' }}>
-              <img
-                src="/lenscraft-logo.png"
-                alt="Lenscraft"
-                style={{ height: '56px', maxWidth: '240px', width: 'auto', display: 'block', objectFit: 'contain' }}
-                onError={(e) => { e.target.style.display = 'none'; }}
-              />
-            </div>
             <div style={{ fontSize: '12.5px', color: '#1e293b', lineHeight: '1.4' }}>
-              <div style={{ fontWeight: '700', fontSize: '15px', color: '#1b4374', marginBottom: '2px' }}>Lenscraft</div>
-              #10, Baker Street, Broadway, Chennai - 600001.<br />
-              <span style={{ fontWeight: 'bold' }}>Mobile: 9944340471</span>
+              <div style={{ fontWeight: '700', fontSize: '16px', color: '#1b4374', marginBottom: '3px' }}>K S VISION</div>
+              10, Baker Street, Parry's Corner, Chennai, Tamil Nadu 600001<br />
+              <span style={{ fontWeight: 'bold' }}>PH.no - 7904274014</span>
             </div>
           </div>
 
